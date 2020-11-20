@@ -69,48 +69,7 @@
     </profiles>
 
     <modules>
-        <module>action-chaining</module>
-        <module>annotations</module>
-        <module>basic-struts</module>
-        <module>bean-validation</module>
-        <module>blank</module>
-        <module>coding-actions</module>
-        <module>control-tags</module>
-        <module>crud</module>
-        <module>debugging-struts</module>
-        <module>exception-handling</module>
-        <module>exclude-parameters</module>
-        <module>file-upload</module>
-        <module>form-processing</module>
-        <module>form-tags</module>
-        <module>form-validation</module>
-        <module>form-xml-validation</module>
-        <module>helloworld</module>
-        <module>http-session</module>
-        <module>interceptors</module>
-        <module>json</module>
-        <module>json-customize</module>
-        <module>mailreader2</module>
-        <module>message-resource</module>
-        <module>message-store</module>
-        <module>portlet</module>
-        <module>preparable-interface</module>
-        <module>quarkus</module>
-        <module>restful2actionmapper</module>
-        <module>rest-angular</module>
-        <module>shiro-basic</module>
-        <module>spring-struts</module>
-        <module>text-provider</module>
-        <module>tiles</module>
-        <module>themes</module>
-        <module>themes-override</module>
-        <module>type-conversion</module>
-        <module>unit-testing</module>
-        <module>unknown-handler</module>
-        <module>using-tags</module>
-        <module>validation-messages</module>
-        <module>wildcard-method-selection</module>
-        <module>wildcard-regex</module>
+        <module>myproject</module>
   </modules>
 
     <dependencies>

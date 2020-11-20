@@ -1,6 +1,6 @@
-package org.apache.struts.helloworld.action;
+package org.apache.struts.myproject.action;
 
-import org.apache.struts.helloworld.model.Person;
+import org.apache.struts.myproject.model.Person;
 
 import com.opensymphony.xwork2.ActionSupport;
 

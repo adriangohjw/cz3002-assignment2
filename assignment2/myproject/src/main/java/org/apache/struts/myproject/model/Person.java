@@ -1,4 +1,4 @@
-package org.apache.struts.helloworld.model;
+package org.apache.struts.myproject.model;
 
 public class Person {
     

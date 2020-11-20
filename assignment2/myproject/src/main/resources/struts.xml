@@ -9,11 +9,11 @@
 
 	<package name="basicstruts2" extends="struts-default">
 
-		<action name="index" class="org.apache.struts.helloworld.action.LoginAction" method="index">
+		<action name="index" class="org.apache.struts.myproject.action.LoginAction" method="index">
 			<result name="success">/Login.jsp</result>
 		</action>
 
-		<action name="login" class="org.apache.struts.helloworld.action.LoginAction" method="loginSuccess">
+		<action name="login" class="org.apache.struts.myproject.action.LoginAction" method="loginSuccess">
 			<result name="success">/LoginSuccess.jsp</result>
 		</action>
 
