@@ -15,6 +15,7 @@
 
 		<action name="login" class="org.apache.struts.myproject.action.LoginAction" method="login">
 			<result name="success">/LoginSuccess.jsp</result>
+			<result name="error">/LoginFailure.jsp</result>
 		</action>
 
 	</package>
