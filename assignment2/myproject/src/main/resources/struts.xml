@@ -5,7 +5,7 @@
 
 <struts>
 
-	<constant name="struts.devMode" value="true" />
+	<constant name="struts.devMode" value="false" />
 
 	<package name="basicstruts2" extends="struts-default">
 
@@ -13,7 +13,7 @@
 			<result name="success">/Login.jsp</result>
 		</action>
 
-		<action name="login" class="org.apache.struts.myproject.action.LoginAction" method="loginSuccess">
+		<action name="login" class="org.apache.struts.myproject.action.LoginAction" method="login">
 			<result name="success">/LoginSuccess.jsp</result>
 		</action>
 

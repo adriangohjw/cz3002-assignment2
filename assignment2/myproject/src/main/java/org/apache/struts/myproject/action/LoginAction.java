@@ -4,20 +4,28 @@ import org.apache.struts.myproject.model.Person;
 
 import com.opensymphony.xwork2.ActionSupport;
 
+/**
+ * Acts as a controller to handle actions
+*/
+
 public class LoginAction extends ActionSupport {
 
-    public Person person = new Person("Adrian", "P@sSw0Rd");
+    private Person person = new Person();
 
     public String index() {        
         return SUCCESS;
     }
 
-    public String login() {
+    public String login() throws Exception {
         // do something to authenticate with database
         return SUCCESS;
     }
 
-    public String loginSuccess() {
-        return SUCCESS;
+    public Person getPerson() {
+        return this.person;
+    }
+
+    public void setPerson(Person person) {
+        this.person = person;
     }
 }

@@ -9,6 +9,7 @@
   <body>
     <h3>Login Successful</h3>
 
-    <p>Your login information: <s:property value="person.name"/></p>
+    <p>Your login information: </p>
+    <p><s:property value="person"/></p>
   </body>
 </html>
