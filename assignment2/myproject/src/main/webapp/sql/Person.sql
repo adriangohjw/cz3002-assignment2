@@ -5,6 +5,6 @@ CREATE  TABLE CZ3002.person (
   name VARCHAR(45) NOT NULL ,
   password VARCHAR(45) NOT NULL ,
   PRIMARY KEY (id) ,
-  UNIQUE INDEX PERSON_NAME_UNIQUE (name ASC));
+  UNIQUE(name));
 
 INSERT INTO CZ3002.person VALUES (1, 'adrian', 'secret');
